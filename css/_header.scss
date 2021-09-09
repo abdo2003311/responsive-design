@@ -1,0 +1,30 @@
+.welcome{
+    background-color: $main-color;
+    color: #fff;
+    height: 100vh;
+    padding: 10vw 4vw;
+    text-transform: capitalize;
+    box-shadow: .1vw .1vw 1vw .1vw #ccc;
+}
+
+header.container-fluid{
+    padding: 0;
+    nav{
+        padding: .5vw 0;
+        .container-fluid{
+            padding: .4vw !important;
+            input:focus{
+                box-shadow: none !important;
+            }
+            .navbar-toggler{
+            padding: 1vw !important;
+            }
+            .navbar-toggler:focus{
+                box-shadow:0 0 0 .3vw #464646;
+            }
+            a{
+            padding: 1vw !important;
+            }
+        }
+    }
+}

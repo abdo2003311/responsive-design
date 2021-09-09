@@ -1,0 +1,879 @@
+/* line 9, new project.scss */
+.slider-wrapper .item button {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+/* line 11, new project.scss */
+.slider-wrapper .item button:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(0.5vw);
+          transform: translateY(0.5vw);
+}
+
+/* line 16, new project.scss */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* line 20, new project.scss */
+h1 {
+  text-transform: capitalize;
+  padding: 1vw 0 !important;
+  margin-bottom: .1vw;
+  font-size: 3vw;
+}
+
+/* line 26, new project.scss */
+h2 {
+  font-size: 2.5vw;
+}
+
+/* line 29, new project.scss */
+a, p, button, span, input, textarea, .showMore {
+  font-size: 1.8vw !important;
+}
+
+/* line 32, new project.scss */
+body {
+  overflow-x: hidden;
+}
+
+/* line 1, _header.scss */
+.welcome {
+  background-color: #2c2c2c;
+  color: #fff;
+  height: 100vh;
+  padding: 10vw 4vw;
+  text-transform: capitalize;
+  -webkit-box-shadow: .1vw .1vw 1vw .1vw #ccc;
+          box-shadow: .1vw .1vw 1vw .1vw #ccc;
+}
+
+/* line 10, _header.scss */
+header.container-fluid {
+  padding: 0;
+}
+/* line 12, _header.scss */
+header.container-fluid nav {
+  padding: .5vw 0;
+}
+/* line 14, _header.scss */
+header.container-fluid nav .container-fluid {
+  padding: .4vw !important;
+}
+/* line 16, _header.scss */
+header.container-fluid nav .container-fluid input:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+/* line 19, _header.scss */
+header.container-fluid nav .container-fluid .navbar-toggler {
+  padding: 1vw !important;
+}
+/* line 22, _header.scss */
+header.container-fluid nav .container-fluid .navbar-toggler:focus {
+  -webkit-box-shadow: 0 0 0 .3vw #464646;
+          box-shadow: 0 0 0 .3vw #464646;
+}
+/* line 25, _header.scss */
+header.container-fluid nav .container-fluid a {
+  padding: 1vw !important;
+}
+
+/* line 1, _services.scss */
+.services {
+  background-color: #5ef016;
+  -webkit-box-shadow: .1vw .1vw .1vw .1vw #ccc;
+          box-shadow: .1vw .1vw .1vw .1vw #ccc;
+  color: #Fff;
+  padding: 2vw;
+}
+/* line 6, _services.scss */
+.services img {
+  border-radius: 1vw;
+  -webkit-box-shadow: 0.1vw 0.1vw 0.5vw 0.1vw #000;
+          box-shadow: 0.1vw 0.1vw 0.5vw 0.1vw #000;
+  width: 100%;
+}
+
+/* line 3, _store.scss */
+.items1 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items2 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items3 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items4 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items5 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items6 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items7 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items8 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items9 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items10 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items11 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items12 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items13 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items14 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items15 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items16 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items17 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items18 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items19 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items20 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items21 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items22 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items23 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items24 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items25 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items26 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items27 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items28 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items29 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items30 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items31 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items32 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items33 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items34 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items35 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items36 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items37 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items38 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items39 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items40 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items41 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items42 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items43 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items44 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items45 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items46 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items47 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items48 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items49 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items50 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items51 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items52 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items53 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items54 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items55 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items56 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items57 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items58 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items59 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items60 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items61 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items62 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items63 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items64 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items65 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items66 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items67 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items68 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items69 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items70 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items71 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items72 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items73 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items74 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items75 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items76 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items77 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items78 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items79 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items80 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items81 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items82 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items83 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items84 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items85 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items86 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items87 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items88 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items89 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items90 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items91 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items92 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items93 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items94 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items95 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items96 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items97 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items98 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items99 {
+  display: none;
+}
+
+/* line 3, _store.scss */
+.items100 {
+  display: none;
+}
+
+/* line 7, _store.scss */
+.store {
+  margin-bottom: 3vw;
+  margin-top: 3vw;
+}
+/* line 10, _store.scss */
+.store h1 {
+  padding: 2vw;
+}
+/* line 13, _store.scss */
+.store .showWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/* line 16, _store.scss */
+.store .showWrapper .showMore {
+  border: 0.2vw solid #5ef016;
+  padding: 1vw;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-radius: 1vw;
+  margin: auto;
+  text-align: center;
+}
+/* line 23, _store.scss */
+.store .showWrapper .showMore:hover {
+  background: #5ef016;
+  color: #fff;
+  cursor: pointer;
+}
+/* line 31, _store.scss */
+.store .row div {
+  padding: 2vw;
+}
+/* line 33, _store.scss */
+.store .row div:hover div::before {
+  bottom: 0;
+}
+/* line 36, _store.scss */
+.store .row div:hover div span {
+  color: #fff;
+}
+/* line 39, _store.scss */
+.store .row div div {
+  overflow: hidden;
+  position: relative;
+  padding: 2vw;
+  -webkit-box-shadow: .1vw .1vw 1vw .1vw #ccc;
+          box-shadow: .1vw .1vw 1vw .1vw #ccc;
+  text-align: center;
+}
+/* line 45, _store.scss */
+.store .row div div:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: .1vw .1vw .5vw .1vw #000;
+          box-shadow: .1vw .1vw .5vw .1vw #000;
+}
+/* line 49, _store.scss */
+.store .row div div::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  background-color: #5ef016;
+  bottom: -98%;
+  left: 0;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+/* line 60, _store.scss */
+.store .row div div img {
+  width: 20vw;
+  margin-bottom: 1vw;
+  border-radius: 50%;
+  -webkit-box-shadow: .1vw .1vw 1vw .1vw #ccc;
+          box-shadow: .1vw .1vw 1vw .1vw #ccc;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+/* line 67, _store.scss */
+.store .row div div button {
+  border: 0;
+  color: #fff;
+  background: #5ef016;
+  float: right;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+/* line 73, _store.scss */
+.store .row div div button:hover {
+  background: #fff;
+  color: #5ef016;
+}
+/* line 78, _store.scss */
+.store .row div div .price {
+  float: left;
+  color: #5ef016;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+/* line 83, _store.scss */
+.store .row div div p {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+/* line 1, _testmonials.scss */
+.slider-wrapper {
+  padding: 1vw;
+  background-image: url("../images/liquid-cheese (1).svg");
+  background-position: bottom bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: .1vw .1vw 1vw .1vw #ccc;
+          box-shadow: .1vw .1vw 1vw .1vw #ccc;
+}
+/* line 8, _testmonials.scss */
+.slider-wrapper .item {
+  padding: 2vw;
+  position: relative;
+  -webkit-box-shadow: 0.1vw 0.1vw 1vw 0.1vw #000;
+          box-shadow: 0.1vw 0.1vw 1vw 0.1vw #000;
+  margin: 1vw auto 5vw;
+  background-color: #2c2c2c;
+  color: #eee;
+  border-radius: 1vw;
+  width: 80%;
+}
+/* line 17, _testmonials.scss */
+.slider-wrapper .item div {
+  padding: 1.2vw !important;
+}
+/* line 20, _testmonials.scss */
+.slider-wrapper .item p {
+  margin-bottom: 4vw;
+}
+/* line 23, _testmonials.scss */
+.slider-wrapper .item h2 {
+  text-transform: capitalize;
+  margin-bottom: 1px;
+}
+/* line 27, _testmonials.scss */
+.slider-wrapper .item img {
+  display: block;
+  margin: auto;
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  -webkit-box-shadow: 0.1vw 0.1vw 1vw 0.1vw #3d3d3d;
+          box-shadow: 0.1vw 0.1vw 1vw 0.1vw #3d3d3d;
+}
+/* line 35, _testmonials.scss */
+.slider-wrapper .item button {
+  text-transform: uppercase;
+  margin: 1vw;
+  padding: 1vw;
+  position: absolute;
+  right: .5vw;
+  bottom: .5vw;
+  background: linear-gradient(45deg, #34c4ce, #ecda36);
+  color: #fff;
+  border-radius: 1vw;
+  border: 0;
+}
+
+/* line 48, _testmonials.scss */
+/* line 52, _testmonials.scss */
+.swiper-pagination {
+  bottom: -3px !important;
+}
+
+/* line 55, _testmonials.scss */
+.swiper-pagination-bullet {
+  width: 1vw !important;
+  height: 1vw !important;
+}
+
+/* line 54, _testmonials.scss */
+/* line 61, _testmonials.scss */
+.swiper-pagination-bullet-active {
+  width: 1vw !important;
+  height: 1vw !important;
+}
+
+/* line 65, _testmonials.scss */
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 .4vw !important;
+}
+
+/* line 1, _whyUs.scss */
+.why {
+  padding: 2vw;
+}
+/* line 3, _whyUs.scss */
+.why img {
+  border-radius: 1vw;
+  -webkit-box-shadow: 0.1vw 0.1vw 0.5vw 0.1vw #000;
+          box-shadow: 0.1vw 0.1vw 0.5vw 0.1vw #000;
+  width: 100%;
+}
+
+/* line 1, _contact.scss */
+.contact {
+  text-align: center;
+  overflow: hidden;
+}
+/* line 4, _contact.scss */
+.contact form {
+  overflow: hidden;
+  -webkit-box-shadow: .1vw .1vw 1vw .1vw #ccc;
+          box-shadow: .1vw .1vw 1vw .1vw #ccc;
+  margin: 4vw auto;
+  border-radius: 1vw;
+}
+/* line 9, _contact.scss */
+.contact form h1 {
+  padding: 2vw 0 1vw 0;
+  margin: 0 !important;
+}
+/* line 13, _contact.scss */
+.contact form input {
+  padding: 1vw;
+  margin: 2vw auto;
+  border: 0.1vw solid #5ef016;
+  border-radius: 1vw;
+  display: block;
+  width: 95%;
+}
+/* line 21, _contact.scss */
+.contact form input[type="submit"] {
+  background: #fff;
+  width: auto;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+/* line 25, _contact.scss */
+.contact form input[type="submit"]:hover {
+  background: #5ef016;
+  color: #fff;
+}
+/* line 30, _contact.scss */
+.contact form i {
+  -webkit-transition: .3s;
+  transition: .3s;
+  font-size: 2.5vw;
+  display: inline-block;
+  margin: .5vw;
+  color: #4c4e4b;
+}
+/* line 36, _contact.scss */
+.contact form i:hover {
+  cursor: pointer;
+  color: #5ef016;
+}
+
+@media (min-width: 768px) {
+  /* line 45, _contact.scss */
+  .contact form {
+    width: 40%;
+  }
+}
+/* line 42, new project.scss */
+footer {
+  background: #2c2c2c;
+  color: #fff;
+  padding: 1vw;
+}
+/* line 46, new project.scss */
+footer p {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=new project.css.map */

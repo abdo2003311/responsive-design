@@ -1,0 +1,11 @@
+.services{
+    background-color: $sec-color;
+    box-shadow: .1vw .1vw .1vw .1vw #ccc;
+    color: #Fff;
+    padding: 2vw;
+    img{
+        border-radius: $border-radius;
+        box-shadow: $sec-box-shadow;
+        width: 100%;
+    }
+}

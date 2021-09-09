@@ -1,0 +1,90 @@
+$i : 0;
+@for $i from 1 through 100 {
+    .items#{$i}{
+        display: none;
+    }
+} 
+.store{
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+    h1{
+        padding: 2vw;
+    }
+    .showWrapper{
+        display: flex;
+        justify-content: center;
+        .showMore{
+        border: .2vw solid $sec-color;
+        padding: 1vw;
+        transition: .3s;
+        border-radius: $border-radius;
+        margin: auto;
+        text-align: center;
+        &:hover{
+            background: $sec-color;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+    }
+    .row{
+        div{
+            padding: 2vw;
+            &:hover div::before{
+                bottom: 0;
+            }
+            &:hover div span{
+                color: #fff;
+            }
+            div{
+                overflow: hidden;
+                position: relative;
+                padding: 2vw;
+                box-shadow: .1vw .1vw 1vw .1vw #ccc;
+                text-align: center;
+                &:hover img{
+                    transform: scale(1.05);
+                    box-shadow: .1vw .1vw .5vw .1vw #000;
+                }
+                &::before{
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: -100;
+                    background-color: $sec-color;
+                    bottom: -98%;
+                    left: 0;
+                    transition: .5s;
+                }
+                img{
+                    width: $imgWidth ;
+                    margin-bottom: 1vw;
+                    border-radius: 50%;
+                    box-shadow: .1vw .1vw 1vw .1vw #ccc;
+                    transition: .2s;
+                }
+                button{
+                    border: 0;
+                    color: #fff;
+                    background: $sec-color;
+                    float: right;
+                    transition: .2s;
+                    &:hover{
+                        background:#fff;
+                        color: $sec-color;
+                    }
+                }
+                .price{
+                    float: left;
+                    color: $sec-color;
+                    transition: .2s;
+                }
+                p{
+                    margin-top: 1vw;
+                    margin-bottom: 1vw
+                }
+            }
+        }
+    }
+}

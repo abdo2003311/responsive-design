@@ -1,0 +1,67 @@
+.slider-wrapper{
+    padding: 1vw;
+    background-image: url('../images/liquid-cheese\ \(1\).svg');
+    background-position: bottom bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: .1vw .1vw 1vw .1vw #ccc;
+    .item{
+        padding: 2vw;
+        position: relative;
+        box-shadow: $main-box-shadow;
+        margin:1vw auto 5vw;
+        background-color: $main-color;
+        color:#eee;
+        border-radius:$border-radius ;
+        width: 80%;
+        div{
+            padding: 1.2vw !important;
+        }
+        p{
+            margin-bottom: 4vw;
+        }
+        h2{
+            text-transform: capitalize;
+            margin-bottom: 1px;
+        }
+        img{
+            display: block;
+            margin: auto;
+            width: $imgWidth;
+            height: $imgWidth;
+            border-radius: 50%;
+            box-shadow: .1vw .1vw 1vw .1vw rgb(61, 61, 61);
+        }
+        button{
+            text-transform: uppercase;
+            margin: 1vw;
+            padding: 1vw;
+            position: absolute;
+            right: .5vw;
+            bottom: .5vw;
+            background: $gradient;
+            color: #fff;
+            border-radius: $border-radius;
+            border: 0;
+            @extend %transYani;
+        }
+    }
+    
+}
+/* line 48, _testmonials.scss */
+.swiper-pagination{
+    bottom: -3px !important;
+}
+.swiper-pagination-bullet {
+  width: 1vw !important;
+  height: 1vw !important;
+}
+
+/* line 54, _testmonials.scss */
+.swiper-pagination-bullet-active {
+  width: 1vw !important;
+  height: 1vw !important;
+}
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 .4vw !important;
+}

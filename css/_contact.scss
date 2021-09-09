@@ -1,0 +1,49 @@
+.contact{
+    text-align: center;
+    overflow: hidden;
+    form{
+        overflow: hidden;
+        box-shadow: .1vw .1vw 1vw .1vw #ccc;
+        margin: 4vw auto;
+        border-radius: $border-radius;
+        h1{
+            padding: 2vw 0 1vw 0;
+            margin: 0 !important;
+        }
+        input{
+            padding: 1vw;
+            margin: 2vw auto;
+            border: .1vw solid $sec-color;
+            border-radius: $border-radius;
+            display: block;
+            width: 95%;
+        }
+        input[type="submit"]{
+            background: #fff;
+            width: auto;
+            transition: .3s;
+            &:hover{
+                background: $sec-color;
+                color: #fff;
+            }
+        }
+        i{
+            transition: .3s;
+            font-size: 2.5vw;
+            display: inline-block;
+            margin: .5vw;
+            color: rgb(76, 78, 75);
+            &:hover{
+                cursor: pointer;
+                color: $sec-color;
+            }
+        }
+    }
+}
+@media (min-width:768px) {
+    .contact{
+        form{
+            width: 40%;
+        }
+    }
+}
